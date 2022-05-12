@@ -1,0 +1,6 @@
+[
+    { "test_name": "test_zeroes", "instance": "500", "expected": 0 },
+    { "test_name": "test_asc", "instance": "123456789", "expected": 12346789 },
+    { "test_name": "test_front_mid", "instance": "51235321", "expected": 1235321 },
+    { "test_name": "test_double", "instance": "55", "expected": 5 }
+]

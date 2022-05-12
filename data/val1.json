@@ -1,0 +1,8 @@
+[
+    { "test_name": "test_zeroes", "instance": "0 0 0 0 0 0 0 0 0 0", "expected": 0 },
+    { "test_name": "test_ones", "instance": "1 1 1 1 1 1", "expected": 0 },
+    { "test_name": "test_first", "instance": "1 0 0 0 0 0", "expected": 1 },
+    { "test_name": "test_last", "instance": "1 1 1 1 1 1 1 0", "expected": 7 },
+    { "test_name": "test_middle_no", "instance": "1 2 3 4 5 6 3 4 5 1", "expected": 0 },
+    { "test_name": "test_high_no", "instance": "40000 40000 40000 40000 40001 40000 40000 40000 40000 40000", "expected": 6 }
+]
