@@ -34,4 +34,4 @@ pip install -r requirements.txt
 
 ## Working on the Tests
 
-To work on the test, open each notebook and markdown files and follow the instruction inside. When you're finished, commit and push your solutions to private github repository and send invitation to ichsan@magpie.co.id and adit@magpie.co.id.
+To work on the test, open each notebook and markdown files and follow the instruction inside. When you're finished, commit and push your solutions to private github repository and send invitation to ichsan@adskom.com and adit@magpie.co.id.
