@@ -11,6 +11,11 @@ With the [following data](https://docs.google.com/spreadsheets/d/137ThHezo09Ykh-
 ## Structuring Datamart (Additional Point)
 
 One of the key features of modern data analytics is the removal of sporadic datasource in favor of one place to put all our data. Enter Enterprise Data Warehouse, a denormalized view of items information, that contains daily information of the products that we track. Currently we're tracking ten-thousands of products from certain categories for several clients. From which we processed it to deliver multiple metrics for each of our clients. 
-> For example we're tracking the multiple `accessories` categories from multiple ecommerce. And from those data we'll analyze the pricing and market share for each brand, and several ad-hoc analysis to our clients (all of which are monthly aggregate).
-As a Data Analyst you'll work tightly with our team of Data Engineer, and in order to work efficiently you're given the freedom to request how the Data Engineer design the flow of data. In this case, propose how you want the data to flow from the datasources (ecommerces) to intermediate tables, up until the data marts needed for analysis delivery.
-Feel free to use the above example and additional assumptions to constraint your answer (please limit your answer to around 500-700 words)
+> Case study: we're tracking the multiple `accessories` categories from multiple ecommerce. And from those data we'll analyze the pricing and market share for each brand, and several ad-hoc analysis to our clients (all of which are monthly aggregate).
+As a Data Analyst you'll work tightly with our team of Data Engineer, and in order to work efficiently you're given the freedom to request how the Data Engineer design the flow of data. 
+
+Please describe your opinion about below points:
+1. When is centralized datawarehouse still makes sense to be used, and when should we start creating datamart for each of our client. 
+2. In this case, propose how you want the data to flow from the datasources (ecommerces) to intermediate tables, up until the data marts needed for analysis delivery.
+
+Feel free to add additional assumptions to constraint your answer (please limit your answer to around 500-700 words)
